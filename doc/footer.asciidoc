@@ -1,0 +1,36 @@
+
+See the pacman website at https://archlinux.org/pacman/[] for current
+information on pacman and its related tools.
+
+
+Bugs
+----
+Bugs? You must be kidding; there are no bugs in this software. But if we
+happen to be wrong, please report them to the issue tracker at
+link:https://gitlab.archlinux.org/pacman/pacman/-/issues[] with specific
+information such as your command-line, the nature of the bug, and even
+the package database if it helps.
+
+
+Authors
+-------
+
+Current maintainers:
+
+* Allan McRae <allan@archlinux.org>
+* Andrew Gregory <andrew.gregory.8@gmail.com>
+* Morgan Adamiec <morganamilo@archlinux.org>
+
+Past major contributors:
+
+* Judd Vinet <jvinet@zeroflux.org>
+* Aurelien Foret <aurelien@archlinux.org>
+* Aaron Griffin <aaron@archlinux.org>
+* Dan McGee <dan@archlinux.org>
+* Xavier Chantry <shiningxc@gmail.com>
+* Nagy Gabor <ngaba@bibl.u-szeged.hu>
+* Dave Reisner <dreisner@archlinux.org>
+* Eli Schwartz <eschwartz@archlinux.org>
+
+For additional contributors, use `git shortlog -s` on the pacman.git
+repository.

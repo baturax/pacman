@@ -1,0 +1,1148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "Pacman Development Team <pacman-dev@archlinux.org>"
+# This file is distributed under the same license as the libalpm package.
+#
+# Translators:
+# 202609b54ed34ff097613de9ccdb5e5a_959331d <9d860af7345e5089300e50121cee92df_6113>, 2011
+# Arthur Țițeică <arthur.titeica@gmail.com>, 2013
+# Arthur Titeica <arthur@psw.ro>, 2013
+# Arthur Țițeică <arthur.titeica@gmail.com>, 2013-2015
+# 202609b54ed34ff097613de9ccdb5e5a_959331d <9d860af7345e5089300e50121cee92df_6113>, 2011
+# 202609b54ed34ff097613de9ccdb5e5a_959331d <9d860af7345e5089300e50121cee92df_6113>, 2011
+# C S, 2023
+# C S, 2023
+# Dan McGee <dpmcgee@gmail.com>, 2011
+# Ionut Biru <ibiru@archlinux.org>, 2011
+# Mihai Coman <mihai@m1x.ro>, 2011,2013
+# mihaicris <Mihai.cristescu@gmail.com>, 2015
+# mihaicris <Mihai.cristescu@gmail.com>, 2015
+# Mihai Cristescu <mihai.cristescu@archlinux.info>, 2015
+# Arthur Țițeică <arthur.titeica@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Arch Linux Pacman package manager\n"
+"Report-Msgid-Bugs-To: https://gitlab.archlinux.org/pacman/pacman/-/issues\n"
+"POT-Creation-Date: 2024-07-14 19:10+1000\n"
+"PO-Revision-Date: 2010-11-29 23:17+0000\n"
+"Last-Translator: Arthur Țițeică <arthur.titeica@gmail.com>, 2013-2015\n"
+"Language-Team: Romanian (http://app.transifex.com/toofishes/archlinux-pacman/"
+"language/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#: lib/libalpm/add.c:90 lib/libalpm/sync.c:279
+#, c-format
+msgid "%s-%s is up to date -- skipping\n"
+msgstr "%s-%s este actualizat -- se omite\n"
+
+#: lib/libalpm/add.c:94
+#, c-format
+msgid "%s-%s is up to date -- reinstalling\n"
+msgstr "%s-%s este actualizat -- se reinstalează\n"
+
+#: lib/libalpm/add.c:99
+#, c-format
+msgid "downgrading package %s (%s => %s)\n"
+msgstr "se retrogradează pachetul %s (%s => %s)\n"
+
+#: lib/libalpm/add.c:129
+#, c-format
+msgid "cannot allocate disk archive object"
+msgstr "nu poate fi alocat obiectul de arhivă disc"
+
+#: lib/libalpm/add.c:143 lib/libalpm/util.c:408
+#, c-format
+msgid "warning given when extracting %s (%s)\n"
+msgstr "s-a primit o avertizare la extragerea %s (%s)\n"
+
+#: lib/libalpm/add.c:146 lib/libalpm/util.c:411
+#, c-format
+msgid "could not extract %s (%s)\n"
+msgstr "nu s-a putut extrage %s (%s)\n"
+
+#: lib/libalpm/add.c:159 lib/libalpm/dload.c:707 lib/libalpm/remove.c:550
+#, c-format
+msgid "could not rename %s to %s (%s)\n"
+msgstr "nu s-a putut redenumi %s în %s (%s)\n"
+
+#: lib/libalpm/add.c:210
+#, c-format
+msgid "file not found in file list for package %s. skipping extraction of %s\n"
+msgstr ""
+"fișierul nu a fost găsit în lista de fișiere pentru pachetul %s. Se omite "
+"extragerea lui %s\n"
+
+#: lib/libalpm/add.c:219
+#, c-format
+msgid "unable to extract %s%s: path too long"
+msgstr "nu se poate extrage %s%s: cale prea lungă"
+
+#: lib/libalpm/add.c:261
+#, c-format
+msgid ""
+"directory permissions differ on %s\n"
+"filesystem: %o  package: %o\n"
+msgstr ""
+"permisiunile directorului diferă la %s\n"
+"sistem fișiere: %o  pachet: %o\n"
+
+#: lib/libalpm/add.c:276
+#, c-format
+msgid ""
+"directory ownership differs on %s\n"
+"filesystem: %u:%u  package: %u:%u\n"
+msgstr ""
+"proprietarul directorului diferă pentru %s\n"
+"sistem fișiere: %u:%u pachet: %u:%u\n"
+
+#: lib/libalpm/add.c:292
+#, c-format
+msgid "extract: not overwriting dir with file %s\n"
+msgstr "extragere: nu se suprascrie dir cu fișierul %s\n"
+
+#: lib/libalpm/add.c:320
+#, c-format
+msgid "unable to extract %s.pacnew: path too long"
+msgstr "nu se poate extrage %s.pacnew: cale prea lungă"
+
+#: lib/libalpm/add.c:510 lib/libalpm/util.c:354 lib/libalpm/util.c:624
+#, c-format
+msgid "could not get current working directory\n"
+msgstr "nu s-a putut determina directorul de lucru curent\n"
+
+#: lib/libalpm/add.c:515 lib/libalpm/util.c:359 lib/libalpm/util.c:629
+#: lib/libalpm/util.c:684
+#, c-format
+msgid "could not change directory to %s (%s)\n"
+msgstr "nu s-a putut schimba directorul în %s (%s)\n"
+
+#: lib/libalpm/add.c:571 lib/libalpm/util.c:429 lib/libalpm/util.c:808
+#, c-format
+msgid "could not restore working directory (%s)\n"
+msgstr "nu s-a putut restabili directorul de lucru curent (%s)\n"
+
+#: lib/libalpm/add.c:579
+#, c-format
+msgid "problem occurred while upgrading %s\n"
+msgstr "problemă apărută la actualizarea %s\n"
+
+#: lib/libalpm/add.c:585
+#, c-format
+msgid "problem occurred while installing %s\n"
+msgstr "problemă apărută la instalarea %s\n"
+
+#: lib/libalpm/add.c:600
+#, c-format
+msgid "could not update database entry %s-%s\n"
+msgstr "nu s-a putut actualiza în baza de date intrarea %s-%s\n"
+
+#: lib/libalpm/add.c:610
+#, c-format
+msgid "could not add entry '%s' in cache\n"
+msgstr "nu s-a putut adăuga intrarea '%s' în cache\n"
+
+#: lib/libalpm/be_local.c:271
+#, c-format
+msgid "error while reading file %s: %s\n"
+msgstr "eroare la citirea fișierului %s: %s\n"
+
+#: lib/libalpm/be_local.c:382
+#, c-format
+msgid "removing invalid database: %s\n"
+msgstr "se elimină baza de date nevalidă %s\n"
+
+#: lib/libalpm/be_local.c:433 lib/libalpm/be_local.c:947
+#, c-format
+msgid "could not create directory %s: %s\n"
+msgstr "nu s-a putut crea directorul %s: %s\n"
+
+#: lib/libalpm/be_local.c:608 lib/libalpm/be_sync.c:339
+#, c-format
+msgid "invalid name for database entry '%s'\n"
+msgstr "nume nevalid pentru intrarea în baza de date '%s'\n"
+
+#: lib/libalpm/be_local.c:616
+#, c-format
+msgid "duplicated database entry '%s'\n"
+msgstr "intrare duplicat în baza de date '%s'\n"
+
+#: lib/libalpm/be_local.c:628
+#, c-format
+msgid "corrupted database entry '%s'\n"
+msgstr "intrare coruptă în baza de date '%s'\n"
+
+#: lib/libalpm/be_local.c:663
+#, c-format
+msgid "unknown install reason for package %s: %s\n"
+msgstr ""
+
+#: lib/libalpm/be_local.c:743 lib/libalpm/be_local.c:856
+#: lib/libalpm/be_local.c:996 lib/libalpm/be_local.c:1102
+#: lib/libalpm/diskspace.c:135 lib/libalpm/dload.c:792 lib/libalpm/util.c:273
+#: lib/libalpm/util.c:289
+#, c-format
+msgid "could not open file %s: %s\n"
+msgstr "nu s-a putut deschide fișierul %s: %s\n"
+
+#: lib/libalpm/be_local.c:759 lib/libalpm/be_sync.c:612
+#, c-format
+msgid "%s database is inconsistent: name mismatch on package %s\n"
+msgstr ""
+"baza de date %s este inconsecventă: nepotrivire de nume la pachetul %s\n"
+
+#: lib/libalpm/be_local.c:765 lib/libalpm/be_sync.c:618
+#, c-format
+msgid "%s database is inconsistent: version mismatch on package %s\n"
+msgstr ""
+"baza de date %s este inconsecventă: nepotrivire de versiune la pachetul %s\n"
+
+#: lib/libalpm/be_local.c:806
+#, c-format
+msgid "unknown validation type for package %s: %s\n"
+msgstr "tipul de validare este necunoscut pentru pachetul %s: %s\n"
+
+#: lib/libalpm/be_local.c:841
+#, c-format
+msgid "%s: unknown key '%s' in local database\n"
+msgstr ""
+
+#: lib/libalpm/be_package.c:255
+#, c-format
+msgid "%s: unknown key '%s' in package description\n"
+msgstr ""
+
+#: lib/libalpm/be_package.c:482 lib/libalpm/be_package.c:635
+#: lib/libalpm/be_package.c:647
+#, c-format
+msgid "error while reading package %s: %s\n"
+msgstr "eroare la citirea pachetului %s: %s\n"
+
+#: lib/libalpm/be_package.c:495 lib/libalpm/be_package.c:518
+#, c-format
+msgid "error while reading mtree of package %s: %s\n"
+msgstr "eroare la citirea mtree pentru pachetul %s: %s\n"
+
+#: lib/libalpm/be_package.c:601
+#, c-format
+msgid "could not parse package description file in %s\n"
+msgstr "nu s-a putut analiza fișierul de descriere a pachetului în %s\n"
+
+#: lib/libalpm/be_package.c:606
+#, c-format
+msgid "missing package name in %s\n"
+msgstr "lipsește numele pachetului în %s\n"
+
+#: lib/libalpm/be_package.c:610
+#, c-format
+msgid "missing package version in %s\n"
+msgstr "lipsește versiunea pachetului în %s\n"
+
+#: lib/libalpm/be_package.c:614
+#, c-format
+msgid "invalid package version in %s\n"
+msgstr "versiune de pachet nevalidă în %s\n"
+
+#: lib/libalpm/be_package.c:653
+#, c-format
+msgid "missing package metadata in %s\n"
+msgstr "lipsă metadate pentru pachet în %s\n"
+
+#: lib/libalpm/be_package.c:745
+#, c-format
+msgid "failed to read signature file: %s\n"
+msgstr "eșec la citirea fișierului de semnătură: %s\n"
+
+#: lib/libalpm/be_package.c:768 lib/libalpm/sync.c:976
+#, c-format
+msgid "required key missing from keyring\n"
+msgstr "cheia necesară lipsește din lanțul de chei\n"
+
+#: lib/libalpm/be_sync.c:61
+#, c-format
+msgid "removing invalid file: %s\n"
+msgstr "se elimină fișierul nevalid: %s\n"
+
+#: lib/libalpm/be_sync.c:471
+#, c-format
+msgid "could not parse package description file '%s' from db '%s'\n"
+msgstr ""
+"nu s-a putut analiza fișierul '%s' de descriere a pachetului din db '%s'\n"
+
+#: lib/libalpm/be_sync.c:486
+#, c-format
+msgid "could not read db '%s' (%s)\n"
+msgstr "nu s-a putut citi baza de date '%s' (%s)\n"
+
+#: lib/libalpm/be_sync.c:519 lib/libalpm/be_sync.c:524
+#, c-format
+msgid "%s database is inconsistent: filename of package %s is illegal\n"
+msgstr ""
+"baza de date %s este inconsistentă: numele de fișier al pachetului %s este "
+"nepermis\n"
+
+#: lib/libalpm/be_sync.c:529
+#, c-format
+msgid "%s database is inconsistent: filename of package %s is too long\n"
+msgstr ""
+"baza de date %s este inconsistentă: numele de fișier al pachetului %s este "
+"prea lung\n"
+
+#: lib/libalpm/be_sync.c:594
+#, c-format
+msgid "unknown database file: %s\n"
+msgstr "fișier pentru baza de date necunoscut: %s\n"
+
+#: lib/libalpm/be_sync.c:712
+#, c-format
+msgid "%s: unknown key '%s' in sync database\n"
+msgstr ""
+
+#: lib/libalpm/db.c:413
+#, c-format
+msgid "database path is undefined\n"
+msgstr "calea bazei de date este nedefinită\n"
+
+#: lib/libalpm/deps.c:184
+#, c-format
+msgid "dependency cycle detected:\n"
+msgstr "a fost detectat un ciclu de dependență:\n"
+
+#: lib/libalpm/deps.c:187
+#, c-format
+msgid "%s will be removed after its %s dependency\n"
+msgstr "%s va fi eliminat înaintea dependenței sale %s\n"
+
+#: lib/libalpm/deps.c:191
+#, c-format
+msgid "%s will be installed before its %s dependency\n"
+msgstr "%s va fi instalat înaintea dependenței sale %s\n"
+
+#: lib/libalpm/deps.c:666 lib/libalpm/deps.c:697
+#, c-format
+msgid "ignoring package %s-%s\n"
+msgstr "se ignoră pachetul %s-%s\n"
+
+#: lib/libalpm/deps.c:842
+#, c-format
+msgid "cannot resolve \"%s\", a dependency of \"%s\"\n"
+msgstr "nu se poate rezolva \"%s\", o dependență a \"%s\"\n"
+
+#: lib/libalpm/diskspace.c:78
+#, c-format
+msgid "could not get filesystem information for %s: %s\n"
+msgstr ""
+"nu s-au putut obține informații despre sistemul de fișiere pentru %s: %s\n"
+
+#: lib/libalpm/diskspace.c:108
+#, c-format
+msgid "could not open file: %s: %s\n"
+msgstr "nu s-a putut deschide fișierul %s: %s\n"
+
+#: lib/libalpm/diskspace.c:154 lib/libalpm/diskspace.c:167
+#, c-format
+msgid "could not get filesystem information\n"
+msgstr "nu s-au putut obține informații despre sistemul de fișiere\n"
+
+#: lib/libalpm/diskspace.c:254
+#, c-format
+msgid "could not get file information for %s\n"
+msgstr "nu s-au putut obține informațiile despre fișier pentru %s\n"
+
+#: lib/libalpm/diskspace.c:268 lib/libalpm/diskspace.c:327
+#, c-format
+msgid "could not determine mount point for file %s\n"
+msgstr "nu s-a putut determina locul de montare al fișierului %s\n"
+
+#: lib/libalpm/diskspace.c:366
+#, c-format
+msgid "Partition %s too full: %jd blocks needed, %ju blocks free\n"
+msgstr "Partiția %s prea plină: %jd blocuri necesare, %ju blocuri libere\n"
+
+#: lib/libalpm/diskspace.c:391 lib/libalpm/diskspace.c:445
+#, c-format
+msgid "could not determine filesystem mount points\n"
+msgstr ""
+"nu s-au putut determina locurile de montare ale sistemului de fișiere\n"
+
+#: lib/libalpm/diskspace.c:397
+#, c-format
+msgid "could not determine cachedir mount point %s\n"
+msgstr "nu s-a putut determina partiția de montare pentru cachedir %s\n"
+
+#: lib/libalpm/diskspace.c:450
+#, c-format
+msgid "could not determine root mount point %s\n"
+msgstr "nu s-a putut determina locul de montare al partiției root %s\n"
+
+#: lib/libalpm/diskspace.c:498
+#, c-format
+msgid "Partition %s is mounted read only\n"
+msgstr "Partiția %s este montată numai pentru citire\n"
+
+#: lib/libalpm/dload.c:107
+#, c-format
+msgid "failed to create temporary file for download\n"
+msgstr "eșec la crearea fișierului temporar pentru descărcare\n"
+
+#: lib/libalpm/dload.c:198
+#, c-format
+msgid ""
+"too many errors from %s, skipping for the remainder of this transaction\n"
+msgstr ""
+"prea multe erori de la %s, trec peste pentru restul acestei tranzacții\n"
+
+#: lib/libalpm/dload.c:215
+#, c-format
+msgid "fatal error from %s, skipping for the remainder of this transaction\n"
+msgstr ""
+
+#: lib/libalpm/dload.c:310
+#, c-format
+msgid "disk"
+msgstr "disc"
+
+#: lib/libalpm/dload.c:532 lib/libalpm/dload.c:570 lib/libalpm/dload.c:583
+#, c-format
+msgid "failed retrieving file '%s' from %s : %s\n"
+msgstr "eșec la obținerea fișierului '%s' din %s : %s\n"
+
+#: lib/libalpm/dload.c:562
+#, c-format
+msgid "failed retrieving file '%s' from %s : expected download size exceeded\n"
+msgstr ""
+"eșec la obținerea fișierului '%s' din %s : dimensiunea de descărcare "
+"așteptată a fost depășită\n"
+
+#: lib/libalpm/dload.c:685
+#, c-format
+msgid "%s appears to be truncated: %jd/%jd bytes\n"
+msgstr "%s pare a fi trunchiat: %jd/%jd octeți\n"
+
+#: lib/libalpm/dload.c:776
+#, c-format
+msgid "url '%s' is invalid\n"
+msgstr "Adresa url '%s' este nevalidă\n"
+
+#: lib/libalpm/dload.c:864
+#, c-format
+msgid "failed to setup a download payload for %s\n"
+msgstr "eșec la configurarea încărcăturii pentru descărcarea %s\n"
+
+#: lib/libalpm/dload.c:876
+#, c-format
+msgid "curl returned error %d from transfer\n"
+msgstr "curl a returnat eroarea %d de la transfer\n"
+
+#: lib/libalpm/dload.c:900
+#, c-format
+msgid "curl transfer error: %d\n"
+msgstr "eroare de transfer curl: %d\n"
+
+#: lib/libalpm/dload.c:963
+#, c-format
+msgid "could not chdir to download directory %s\n"
+msgstr "nu s-a putut schimba directorul în cel de descărcare %s\n"
+
+#: lib/libalpm/dload.c:968
+#, c-format
+msgid "switching to sandbox user '%s' failed!\n"
+msgstr ""
+
+#: lib/libalpm/dload.c:1361 lib/libalpm/sync.c:861
+#, c-format
+msgid "failed to retrieve some files\n"
+msgstr "eșec la obținerea unor fișiere\n"
+
+#: lib/libalpm/dload.c:1384
+#, c-format
+msgid "download completed successfully but no file in the cache\n"
+msgstr "descărcare finalizată cu succes dar fișierul nu există în cache\n"
+
+#: lib/libalpm/error.c:40
+#, c-format
+msgid "out of memory!"
+msgstr "depășire de memorie!"
+
+#: lib/libalpm/error.c:42
+#, c-format
+msgid "unexpected system error"
+msgstr "eroare de sistem neașteptată"
+
+#: lib/libalpm/error.c:44
+#, c-format
+msgid "permission denied"
+msgstr "permisiune respinsă"
+
+#: lib/libalpm/error.c:46
+#, c-format
+msgid "could not find or read file"
+msgstr "nu s-a putut găsi sau citi fișierul"
+
+#: lib/libalpm/error.c:48
+#, c-format
+msgid "could not find or read directory"
+msgstr "nu s-a putut găsi sau citi directorul"
+
+#: lib/libalpm/error.c:50
+#, c-format
+msgid "wrong or NULL argument passed"
+msgstr "argument furnizat greșit sau NULL"
+
+#: lib/libalpm/error.c:52
+#, c-format
+msgid "not enough free disk space"
+msgstr "nu există destul spațiu liber pe disc"
+
+#: lib/libalpm/error.c:55
+#, c-format
+msgid "library not initialized"
+msgstr "bibliotecă neinițializată"
+
+#: lib/libalpm/error.c:57
+#, c-format
+msgid "library already initialized"
+msgstr "bibliotecă deja inițializată"
+
+#: lib/libalpm/error.c:59
+#, c-format
+msgid "unable to lock database"
+msgstr "nu se poate bloca baza de date"
+
+#: lib/libalpm/error.c:62
+#, c-format
+msgid "could not open database"
+msgstr "nu s-a putut deschide baza de date"
+
+#: lib/libalpm/error.c:64
+#, c-format
+msgid "could not create database"
+msgstr "nu s-a putut crea baza de date"
+
+#: lib/libalpm/error.c:66
+#, c-format
+msgid "database not initialized"
+msgstr "bază de date neinițializată"
+
+#: lib/libalpm/error.c:68
+#, c-format
+msgid "database already registered"
+msgstr "bază de date deja înregistrată"
+
+#: lib/libalpm/error.c:70
+#, c-format
+msgid "could not find database"
+msgstr "nu s-a putut găsi baza de date"
+
+#: lib/libalpm/error.c:72
+#, c-format
+msgid "invalid or corrupted database"
+msgstr "bază de date nevalidă sau coruptă"
+
+#: lib/libalpm/error.c:74
+#, c-format
+msgid "invalid or corrupted database (PGP signature)"
+msgstr "bază de date nevalidă sau coruptă (semnătura PGP)"
+
+#: lib/libalpm/error.c:76
+#, c-format
+msgid "database is incorrect version"
+msgstr "baza de date are o versiune incorectă"
+
+#: lib/libalpm/error.c:78
+#, c-format
+msgid "could not update database"
+msgstr "nu s-a putut actualiza baza de date"
+
+#: lib/libalpm/error.c:80
+#, c-format
+msgid "could not remove database entry"
+msgstr "nu s-a putut elimina intrarea din baza de date"
+
+#: lib/libalpm/error.c:83
+#, c-format
+msgid "invalid url for server"
+msgstr "adresa url nevalidă pentru server"
+
+#: lib/libalpm/error.c:85
+#, c-format
+msgid "no servers configured for repository"
+msgstr "nu sunt servere configurate pentru depozit"
+
+#: lib/libalpm/error.c:88
+#, c-format
+msgid "transaction already initialized"
+msgstr "tranzacție deja inițializată"
+
+#: lib/libalpm/error.c:90 lib/libalpm/error.c:96
+#, c-format
+msgid "transaction not initialized"
+msgstr "tranzacție neinițializată"
+
+#: lib/libalpm/error.c:92
+#, c-format
+msgid "duplicate target"
+msgstr "țintă duplicat"
+
+#: lib/libalpm/error.c:94
+#, c-format
+msgid "duplicate filename"
+msgstr "nume de fișier duplicat"
+
+#: lib/libalpm/error.c:98
+#, c-format
+msgid "transaction not prepared"
+msgstr "tranzacție nepregătită"
+
+#: lib/libalpm/error.c:100
+#, c-format
+msgid "transaction aborted"
+msgstr "tranzacție abandonată"
+
+#: lib/libalpm/error.c:102
+#, c-format
+msgid "operation not compatible with the transaction type"
+msgstr "operațiune incompatibilă cu tipul tranzacției"
+
+#: lib/libalpm/error.c:104
+#, c-format
+msgid "transaction commit attempt when database is not locked"
+msgstr "efectuarea tranzacției așteaptă până baza de date nu va fi blocată"
+
+#: lib/libalpm/error.c:106
+#, c-format
+msgid "failed to run transaction hooks"
+msgstr "eșec la executarea hook-urilor de tranzacție"
+
+#: lib/libalpm/error.c:109
+#, c-format
+msgid "could not find or read package"
+msgstr "nu s-a putut găsi sau citi pachetul"
+
+#: lib/libalpm/error.c:111
+#, c-format
+msgid "operation cancelled due to ignorepkg"
+msgstr "operație anulată datorită ignorepkg"
+
+#: lib/libalpm/error.c:113
+#, c-format
+msgid "invalid or corrupted package"
+msgstr "pachet nevalid sau corupt"
+
+#: lib/libalpm/error.c:115
+#, c-format
+msgid "invalid or corrupted package (checksum)"
+msgstr "pachet nevalid sau corupt (sumă de control)"
+
+#: lib/libalpm/error.c:117
+#, c-format
+msgid "invalid or corrupted package (PGP signature)"
+msgstr "pachet nevalid sau corupt (semnătură PGP)"
+
+#: lib/libalpm/error.c:119
+#, c-format
+msgid "package missing required signature"
+msgstr "pachetului îi lipsește semnătura necesară"
+
+#: lib/libalpm/error.c:121
+#, c-format
+msgid "cannot open package file"
+msgstr "nu se poate deschide fișierul pachetului"
+
+#: lib/libalpm/error.c:123
+#, c-format
+msgid "cannot remove all files for package"
+msgstr "nu se pot elimina toate fișierele din pachet"
+
+#: lib/libalpm/error.c:125
+#, c-format
+msgid "package filename is not valid"
+msgstr "numele fișierului pachet este nevalid"
+
+#: lib/libalpm/error.c:127
+#, c-format
+msgid "package architecture is not valid"
+msgstr "architectura pachetului este nevalidă"
+
+#: lib/libalpm/error.c:130
+#, c-format
+msgid "missing PGP signature"
+msgstr "lipsește semnătura PGP"
+
+#: lib/libalpm/error.c:132
+#, c-format
+msgid "invalid PGP signature"
+msgstr "semnătură PGP nevalidă"
+
+#: lib/libalpm/error.c:135 lib/libalpm/hook.c:514
+#, c-format
+msgid "could not satisfy dependencies"
+msgstr "nu pot fi satisfăcute dependențele"
+
+#: lib/libalpm/error.c:137
+#, c-format
+msgid "conflicting dependencies"
+msgstr "dependențe în conflict"
+
+#: lib/libalpm/error.c:139
+#, c-format
+msgid "conflicting files"
+msgstr "fișiere în conflict"
+
+#: lib/libalpm/error.c:142
+#, c-format
+msgid "failed to retrieve some files"
+msgstr "eșec la obținerea unor fișiere"
+
+#: lib/libalpm/error.c:144
+#, c-format
+msgid "invalid regular expression"
+msgstr "expresie regulată nevalidă"
+
+#: lib/libalpm/error.c:150
+#, c-format
+msgid "libarchive error"
+msgstr "eroare libarchive"
+
+#: lib/libalpm/error.c:152
+#, c-format
+msgid "download library error"
+msgstr "eroare în biblioteca de descărcare"
+
+#: lib/libalpm/error.c:154
+#, c-format
+msgid "gpgme error"
+msgstr "eroare gpgme"
+
+#: lib/libalpm/error.c:156
+#, c-format
+msgid "error invoking external downloader"
+msgstr "eroare la invocarea descărcătorului extern"
+
+#: lib/libalpm/error.c:159
+#, c-format
+msgid "compiled without signature support"
+msgstr "compilat fară suport pentru semnături"
+
+#: lib/libalpm/error.c:162
+#, c-format
+msgid "unexpected error"
+msgstr "eroare neașteptată"
+
+#: lib/libalpm/handle.c:165
+#, c-format
+msgid "lock file missing %s\n"
+msgstr "lipsește fișierul de blocare %s\n"
+
+#: lib/libalpm/handle.c:171
+#, c-format
+msgid "could not remove lock file %s\n"
+msgstr "nu s-a putut elimina fișierul de blocare %s\n"
+
+#: lib/libalpm/hook.c:95
+#, c-format
+msgid "Missing trigger targets in hook: %s\n"
+msgstr "Ținte de declanșare lipsă în hook: %s\n"
+
+#: lib/libalpm/hook.c:101
+#, c-format
+msgid "Missing trigger type in hook: %s\n"
+msgstr "Tip de declanșator lipsă în hook: %s\n"
+
+#: lib/libalpm/hook.c:107
+#, c-format
+msgid "Missing trigger operation in hook: %s\n"
+msgstr "Operație de declanșare lipsă în hook: %s\n"
+
+#: lib/libalpm/hook.c:134
+#, c-format
+msgid "Missing Exec option in hook: %s\n"
+msgstr "Opțiunea Exec lipsește în hook: %s\n"
+
+#: lib/libalpm/hook.c:140
+#, c-format
+msgid "Missing When option in hook: %s\n"
+msgstr "Opțiunea When lipsește în hook: %s\n"
+
+#: lib/libalpm/hook.c:143
+#, c-format
+msgid "AbortOnFail set for PostTransaction hook: %s\n"
+msgstr "AbortOnFail configurat pentru hook-ul PostTransaction: %s\n"
+
+#: lib/libalpm/hook.c:160
+#, c-format
+msgid "error while reading hook %s: %s\n"
+msgstr "eroare la citirea hook-ului %s: %s\n"
+
+#: lib/libalpm/hook.c:162 lib/libalpm/hook.c:206 lib/libalpm/hook.c:248
+#, c-format
+msgid "hook %s line %d: invalid option %s\n"
+msgstr "hook %s linia %d: opțiune nevalidă %s\n"
+
+#: lib/libalpm/hook.c:172
+#, c-format
+msgid "hook %s line %d: invalid section %s\n"
+msgstr "hook %s linia %d: secțiune nevalidă %s\n"
+
+#: lib/libalpm/hook.c:184 lib/libalpm/hook.c:199 lib/libalpm/hook.c:218
+#: lib/libalpm/hook.c:241
+#, c-format
+msgid "hook %s line %d: invalid value %s\n"
+msgstr "hook %s linia %d: valoare nevalidă %s\n"
+
+#: lib/libalpm/hook.c:188 lib/libalpm/hook.c:211 lib/libalpm/hook.c:222
+#: lib/libalpm/hook.c:236
+#, c-format
+msgid "hook %s line %d: overwriting previous definition of %s\n"
+msgstr "hook %s linia %d: se suprascrie definiția precedentă a %s\n"
+
+#: lib/libalpm/hook.c:243
+#, c-format
+msgid "hook %s line %d: unable to set option (%s)\n"
+msgstr "hook %s linia %d: nu poate fi setată opțiunea (%s)\n"
+
+#: lib/libalpm/hook.c:513
+#, c-format
+msgid "unable to run hook %s: %s\n"
+msgstr "nu a fost posibilă rularea hook-ului %s: %s\n"
+
+#: lib/libalpm/hook.c:547 lib/libalpm/hook.c:559 lib/libalpm/remove.c:378
+#, c-format
+msgid "could not open directory: %s: %s\n"
+msgstr "nu s-a putut deschide directorul: %s: %s\n"
+
+#: lib/libalpm/hook.c:575
+#, c-format
+msgid "could not open file: %s%s: %s\n"
+msgstr "nu s-a putut deschide fișierul: %s%s: %s\n"
+
+#: lib/libalpm/hook.c:595 lib/libalpm/util.c:279
+#, c-format
+msgid "could not stat file %s: %s\n"
+msgstr "nu s-a putut determina starea fișierului %s: %s\n"
+
+#: lib/libalpm/hook.c:621
+#, c-format
+msgid "could not read directory: %s: %s\n"
+msgstr "nu s-a putut citi directorul: %s: %s\n"
+
+#: lib/libalpm/package.c:614
+#, c-format
+msgid "could not fully load metadata for package %s-%s\n"
+msgstr "nu s-au putut încărca complet metadatele pentru pachetul %s-%s\n"
+
+#: lib/libalpm/package.c:869
+#, c-format
+msgid "invalid package metadata (name or version missing)"
+msgstr ""
+
+#: lib/libalpm/package.c:874
+#, c-format
+msgid ""
+"invalid metadata for package %s-%s (package name cannot start with '.' or "
+"'-')\n"
+msgstr ""
+
+#: lib/libalpm/package.c:878
+#, c-format
+msgid ""
+"invalid metadata for package %s-%s (package name contains invalid "
+"characters)\n"
+msgstr ""
+
+#: lib/libalpm/package.c:885 lib/libalpm/package.c:889
+#, c-format
+msgid ""
+"invalid metadata for package %s-%s (package version contains invalid "
+"characters)\n"
+msgstr ""
+
+#: lib/libalpm/package.c:895
+#, c-format
+msgid ""
+"invalid metadata for package %s-%s (package name and version too long)\n"
+msgstr ""
+
+#: lib/libalpm/remove.c:111
+#, c-format
+msgid "could not find %s in database -- skipping\n"
+msgstr "nu s-a putut găsi %s în baza de date -- se omite\n"
+
+#: lib/libalpm/remove.c:146
+#, c-format
+msgid "removing %s from target list\n"
+msgstr "se elimină '%s' din lista țintă\n"
+
+#: lib/libalpm/remove.c:338
+#, c-format
+msgid "cannot remove file '%s': %s\n"
+msgstr "nu se poate elimina fișierul '%s': %s\n"
+
+#: lib/libalpm/remove.c:403 lib/libalpm/remove.c:412
+#, c-format
+msgid "could not backup %s due to PATH_MAX overflow\n"
+msgstr ""
+"nu s-a putut crea o copie de rezervă pentru %s din cauza unei revărsări "
+"PATH_MAX\n"
+
+#: lib/libalpm/remove.c:570
+#, c-format
+msgid "cannot remove %s (%s)\n"
+msgstr "nu se poate elimina %s (%s)\n"
+
+#: lib/libalpm/remove.c:743
+#, c-format
+msgid "could not remove database entry %s-%s\n"
+msgstr "nu s-a putut elimina intrarea în baza de date %s-%s\n"
+
+#: lib/libalpm/remove.c:748
+#, c-format
+msgid "could not remove entry '%s' from cache\n"
+msgstr "nu s-a putut elimina intrarea '%s' din cache\n"
+
+#: lib/libalpm/signing.c:163
+#, c-format
+msgid "Public keyring not found; have you run '%s'?\n"
+msgstr "Brelocul public nu a fost găsit; ai executat '%s'?\n"
+
+#: lib/libalpm/signing.c:199 lib/libalpm/signing.c:773
+#, c-format
+msgid "GPGME error: %s\n"
+msgstr "eroare GPGME: %s\n"
+
+#: lib/libalpm/signing.c:275
+#, c-format
+msgid "looking up key %s using WKD\n"
+msgstr "se caută cheia %s utilizând WKD\n"
+
+#: lib/libalpm/signing.c:289
+#, c-format
+msgid "gpg error: %s\n"
+msgstr "eroare gpg: %s\n"
+
+#: lib/libalpm/signing.c:440 lib/libalpm/signing.c:513
+#, c-format
+msgid "keyring is not writable\n"
+msgstr "brelocul nu poate fi scris\n"
+
+#: lib/libalpm/signing.c:537
+#, c-format
+msgid "key \"%s\" on keyserver\n"
+msgstr "cheia ”%s” pe serverul de chei\n"
+
+#: lib/libalpm/signing.c:542
+#, c-format
+msgid "key \"%s\" could not be imported\n"
+msgstr "cheia ”%s” nu a putut fi importată\n"
+
+#: lib/libalpm/signing.c:546
+#, c-format
+msgid "key \"%s\" could not be looked up remotely\n"
+msgstr "cheia ”%s” nu a putut fi căutată la distanță\n"
+
+#: lib/libalpm/signing.c:932 lib/libalpm/sync.c:1052
+#, c-format
+msgid "%s: missing required signature\n"
+msgstr "%s: lipsește semnătura necesară\n"
+
+#: lib/libalpm/signing.c:947
+#, c-format
+msgid "%s: signature from \"%s\" is marginal trust\n"
+msgstr "%s: semnătura de la ”%s” e de încredere marginală\n"
+
+#: lib/libalpm/signing.c:955
+#, c-format
+msgid "%s: signature from \"%s\" is unknown trust\n"
+msgstr "%s: semnătura de la ”%s” e de încredere necunoscută\n"
+
+#: lib/libalpm/signing.c:962
+#, c-format
+msgid "%s: signature from \"%s\" should never be trusted\n"
+msgstr "%s: semnătura de la ”%s” nu ar trebui sa fie de incredere vreodată\n"
+
+#: lib/libalpm/signing.c:974
+#, c-format
+msgid "%s: key \"%s\" is unknown\n"
+msgstr "%s: cheia ”%s” e necunoscută\n"
+
+#: lib/libalpm/signing.c:983
+#, c-format
+msgid "%s: key \"%s\" is disabled\n"
+msgstr "%s: cheia ”%s” e dezactivată\n"
+
+#: lib/libalpm/signing.c:987
+#, c-format
+msgid "%s: signature from \"%s\" is expired\n"
+msgstr "%s: semnătura de la ”%s” e expirată\n"
+
+#: lib/libalpm/signing.c:991
+#, c-format
+msgid "%s: signature from \"%s\" is invalid\n"
+msgstr "%s: semnătura de la ”%s” e nevalidă\n"
+
+#: lib/libalpm/signing.c:1049 lib/libalpm/signing.c:1110
+#: lib/libalpm/signing.c:1189
+#, c-format
+msgid "%s: signature format error\n"
+msgstr "%s: eroare de format al semnăturii\n"
+
+#: lib/libalpm/signing.c:1142 lib/libalpm/signing.c:1175
+#: lib/libalpm/signing.c:1183
+#, c-format
+msgid "%s: unsupported signature format\n"
+msgstr "%s: format de semnătură nesuportat\n"
+
+#: lib/libalpm/sync.c:96
+#, c-format
+msgid "%s: ignoring package upgrade (%s => %s)\n"
+msgstr "%s: se ignoră actualizarea pachetului (%s => %s)\n"
+
+#: lib/libalpm/sync.c:108
+#, c-format
+msgid "%s: ignoring package downgrade (%s => %s)\n"
+msgstr "%s: se ignoră retrogradarea pachetului (%s => %s)\n"
+
+#: lib/libalpm/sync.c:111
+#, c-format
+msgid "%s: downgrading from version %s to version %s\n"
+msgstr "%s: retrogradare de la versiunea %s la versiunea %s\n"
+
+#: lib/libalpm/sync.c:117
+#, c-format
+msgid "%s: local (%s) is newer than %s (%s)\n"
+msgstr "%s: (%s) local este mai nou decât %s (%s)\n"
+
+#: lib/libalpm/sync.c:158
+#, c-format
+msgid "ignoring package replacement (%s-%s => %s-%s)\n"
+msgstr "se ignoră înlocuirea pachetului (%s-%s => %s-%s)\n"
+
+#: lib/libalpm/sync.c:174
+#, c-format
+msgid "cannot replace %s by %s\n"
+msgstr "nu se poate înlocui %s cu %s\n"
+
+#: lib/libalpm/sync.c:477
+#, c-format
+msgid "packages %s and %s have the same filename: %s\n"
+msgstr "pachetele %s și %s au același nume de fișier: %s\n"
+
+#: lib/libalpm/sync.c:546 lib/libalpm/sync.c:618
+#, c-format
+msgid "unresolvable package conflicts detected\n"
+msgstr "s-au detectat conflicte nerezolvabile în pachet\n"
+
+#: lib/libalpm/sync.c:566
+#, c-format
+msgid "removing '%s-%s' from target list because it conflicts with '%s-%s'\n"
+msgstr ""
+
+#: lib/libalpm/sync.c:1020 lib/libalpm/sync.c:1187
+#, c-format
+msgid "%s: could not find package in cache\n"
+msgstr ""
+
+#: lib/libalpm/sync.c:1066
+#, c-format
+msgid "failed to read file %s: %s\n"
+msgstr "eșec la citirea fișierului %s: %s\n"
+
+#: lib/libalpm/sync.c:1324
+#, c-format
+msgid "not enough free disk space\n"
+msgstr "nu există destul spațiu liber pe disc\n"
+
+#: lib/libalpm/sync.c:1346
+#, c-format
+msgid "could not commit removal transaction\n"
+msgstr "nu s-a putut efectua tranzacția de eliminare\n"
+
+#: lib/libalpm/sync.c:1354
+#, c-format
+msgid "could not commit transaction\n"
+msgstr "nu s-a putut efectua tranzacția\n"
+
+#: lib/libalpm/trans.c:369
+#, c-format
+msgid "could not create temp directory\n"
+msgstr "nu s-a putut crea directorul temp\n"
+
+#: lib/libalpm/trans.c:384
+#, c-format
+msgid "could not copy tempfile to %s (%s)\n"
+msgstr "nu s-a putut copia tempfile în %s (%s)\n"
+
+#: lib/libalpm/trans.c:415
+#, c-format
+msgid "could not remove %s\n"
+msgstr "nu s-a putut elimina %s\n"
+
+#: lib/libalpm/trans.c:419
+#, c-format
+msgid "could not remove tmpdir %s\n"
+msgstr "nu s-a putut elimina tmpdir %s\n"
+
+#: lib/libalpm/util.c:512
+#, c-format
+msgid "unable to write to pipe (%s)\n"
+msgstr "nu se poate scrie în redirecționare (%s)\n"
+
+#: lib/libalpm/util.c:571
+#, c-format
+msgid "unable to read from pipe (%s)\n"
+msgstr "nu se poate citi din redirecționare (%s)\n"
+
+#: lib/libalpm/util.c:641 lib/libalpm/util.c:647
+#, c-format
+msgid "could not create pipe (%s)\n"
+msgstr "nu s-a putut crea o redirecționare (%s)\n"
+
+#: lib/libalpm/util.c:655
+#, c-format
+msgid "could not fork a new process (%s)\n"
+msgstr "nu s-a putut ramifica un nou proces (%s)\n"
+
+#: lib/libalpm/util.c:680
+#, c-format
+msgid "could not change the root directory (%s)\n"
+msgstr "nu s-a putut schimba directorul root (%s)\n"
+
+#: lib/libalpm/util.c:700
+#, c-format
+msgid "call to execv failed (%s)\n"
+msgstr "eșec la apelul execv (%s)\n"
+
+#: lib/libalpm/util.c:779
+#, c-format
+msgid "call to waitpid failed (%s)\n"
+msgstr "eșec la apelul waitpid (%s)\n"
+
+#: lib/libalpm/util.c:789
+#, c-format
+msgid "command failed to execute correctly\n"
+msgstr "executarea corectă a comenzii a eșuat\n"
+
+#: lib/libalpm/util.c:796
+#, c-format
+msgid "Unknown signal"
+msgstr "Semnal necunoscut"
+
+#: lib/libalpm/util.c:798
+#, c-format
+msgid "command terminated by signal %d: %s\n"
+msgstr "comandă terminată de semnalul %d: %s\n"
+
+#: lib/libalpm/util.c:916
+#, c-format
+msgid "no %s cache exists, creating...\n"
+msgstr "nu există cache %s, se crează...\n"
+
+#: lib/libalpm/util.c:947
+#, c-format
+msgid "couldn't find or create package cache, using %s instead\n"
+msgstr ""
+"nu s-a putut găsi sau crea cache-ul pentru pachet; se folosește %s în "
+"schimb.\n"
