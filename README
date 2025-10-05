@@ -1,3 +1,5 @@
+backup pacman.conf
+
 ALPM library overview & internals
 =================================
 
